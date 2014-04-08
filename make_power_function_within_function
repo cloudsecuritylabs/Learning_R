@@ -1,0 +1,11 @@
+make.power=function(p){
+  pow=function(x){
+    x^p
+  }
+  pow
+}
+
+cube=make.power(3)
+square=make.power(2)
+cube(3)
+square(2)
